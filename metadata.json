@@ -1,0 +1,6 @@
+{
+  "name": "Cronos system",
+  "description": "Línea de tiempo horizontal interactiva de 24 horas con zoom progresivo, cuenta regresiva en tiempo real, dictado por voz y persistencia local con Room.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

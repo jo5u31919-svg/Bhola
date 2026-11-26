@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Cronos system</string>
+
+    <!-- Header & Countdown -->
+    <string name="countdown_label_closing">CIERRE DE BLOQUE</string>
+    <string name="countdown_label_next">PRÓXIMO EVENTO</string>
+    <string name="countdown_label_day_end">FIN DEL DÍA</string>
+    <string name="countdown_no_events">Sin bloques programados hoy</string>
+    <string name="countdown_day_remaining">Tiempo restante de la jornada</string>
+    <string name="progress_block_label">Progreso del bloque · %1$d%%</string>
+    <string name="progress_next_label">Rumbo al evento · %1$d%%</string>
+    <string name="progress_day_label">Progreso del día · %1$d%%</string>
+    <string name="progress_day_chip">Día %1$d%%</string>
+    <string name="action_jump_now">Ahora</string>
+    <string name="cd_jump_now">Centrar línea de tiempo en la hora actual</string>
+    <string name="zoom_badge_format">%1$.1fx · %2$s</string>
+    <string name="tick_unit_60m">60 min</string>
+    <string name="tick_unit_30m">30 min</string>
+    <string name="tick_unit_15m">15 min</string>
+    <string name="tick_unit_5m">5 min</string>
+
+    <!-- Zoom Controls -->
+    <string name="cd_zoom_out">Reducir zoom horizontal</string>
+    <string name="cd_zoom_in">Ampliar zoom horizontal</string>
+    <string name="action_reset_zoom">1x</string>
+    <string name="cd_reset_zoom">Restablecer zoom a 1x</string>
+
+    <!-- Timeline & Empty State -->
+    <string name="timeline_empty_title">Tu línea de tiempo está lista</string>
+    <string name="timeline_empty_subtitle">Pellizca horizontalmente para acercar (30, 15 y 5 min) o toca + para crear un registro con voz o texto.</string>
+    <string name="timeline_pinch_hint">Pellizca para hacer zoom y ver notas completas</string>
+    <string name="block_voice_badge">Voz</string>
+    <string name="block_countdown_badge">Cuenta regresiva</string>
+    <string name="action_edit_block">Editar</string>
+    <string name="cd_edit_block">Editar registro %1$s</string>
+    <string name="cd_create_block">Crear nuevo registro</string>
+    <string name="duration_hours_minutes">%1$dh %2$dm</string>
+    <string name="duration_minutes_only">%1$d min</string>
+
+    <!-- Editor Sheet -->
+    <string name="sheet_title_new">Nuevo registro</string>
+    <string name="sheet_title_edit">Editar registro</string>
+    <string name="field_title_label">Título del bloque</string>
+    <string name="field_title_placeholder">Ej. Revisión de arquitectura, Nota rápida…</string>
+    <string name="field_start_time">Inicio</string>
+    <string name="field_end_time">Fin</string>
+    <string name="field_duration_label">Duración rápida</string>
+    <string name="chip_15m">+15m</string>
+    <string name="chip_30m">+30m</string>
+    <string name="chip_1h">+1h</string>
+    <string name="chip_2h">+2h</string>
+    <string name="field_category_label">Etiqueta</string>
+    <string name="field_countdown_toggle">Cuenta regresiva prioritaria</string>
+    <string name="field_countdown_subtitle">Destaca este bloque en la barra superior HH:MM:SS</string>
+    <string name="field_note_label">Nota detallada</string>
+    <string name="field_note_placeholder">Lo que dijiste o anotaste en este momento…</string>
+
+    <!-- Voice Dictation -->
+    <string name="voice_dictate_note">Dictar nota</string>
+    <string name="voice_dictate_title">Dictar título</string>
+    <string name="voice_listening">Escuchando… habla ahora</string>
+    <string name="voice_stop">Detener dictado</string>
+    <string name="cd_voice_dictate">Iniciar dictado por voz</string>
+    <string name="voice_permission_denied">Permiso de micrófono denegado. Puedes escribir con el teclado o habilitarlo en Ajustes.</string>
+    <string name="voice_unavailable">El reconocimiento de voz no está disponible en este dispositivo; usa el teclado.</string>
+    <string name="voice_error_generic">No se pudo capturar audio (%1$s). Intenta de nuevo.</string>
+
+    <!-- Actions & Validation -->
+    <string name="action_save">Guardar</string>
+    <string name="action_update">Actualizar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="error_title_required">Ingresa o dicta un título para guardar.</string>
+    <string name="error_invalid_time_range">La hora de fin debe ser posterior a la hora de inicio.</string>
+    <string name="msg_block_saved">Registro guardado en la línea de tiempo</string>
+    <string name="msg_block_updated">Registro actualizado</string>
+    <string name="msg_block_deleted">Registro eliminado</string>
+
+    <!-- Categories & Filters -->
+    <string name="category_work">Trabajo</string>
+    <string name="category_meeting">Reunión</string>
+    <string name="category_personal">Personal</string>
+    <string name="category_urgent">Urgente</string>
+    <string name="category_voice">Nota / Voz</string>
+    <string name="filter_all">Todas</string>
+    <string name="filter_empty_title">Sin bloques en %1$s</string>
+    <string name="filter_empty_action">Mostrar todas</string>
+    <string name="cd_filter_category">Filtrar por categoría %1$s</string>
+
+    <!-- Custom Color Picker -->
+    <string name="field_custom_color_label">Color personalizado</string>
+    <string name="custom_color_auto">Automático (etiqueta)</string>
+    <string name="action_use_category_color">Usar etiqueta</string>
+    <string name="action_customize_color">Ajustar tono</string>
+    <string name="action_hide_color_sliders">Ocultar</string>
+    <string name="custom_color_hue">Tono</string>
+    <string name="custom_color_saturation">Saturación</string>
+    <string name="custom_color_brightness">Brillo</string>
+    <string name="custom_color_hex_label">Hex</string>
+    <string name="cd_custom_color_preview">Vista previa de color personalizado</string>
+    <string name="cd_custom_color_auto">Usar color automático de la categoría</string>
+    <string name="cd_custom_color_swatch">Seleccionar color personalizado %1$s</string>
+</resources>
